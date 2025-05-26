@@ -2,7 +2,7 @@
 
 **NoteAI** is an open-source, AI-powered educational assistant that simplifies complex learning content from YouTube videos and Wikipedia articles. Built using **Python** and **Streamlit**, it integrates cutting-edge Natural Language Processing (NLP) technologies to offer a user-friendly interface for summarization, intelligent question answering, and dynamic quiz generation.
 **This tool is part of a research study published in \[2nd International Conference on Computational Science, Communication Technology & Networking (CICTN 2025)].**
-> You can access the full paper here: [**Read the Research Paper**]([https://your-research-paper-link.com](https://ieeexplore.ieee.org/document/10932550))
+> You can access the full paper here: [**Read the Research Paper**](https://ieeexplore.ieee.org/document/10932550)
 
 ---
 
@@ -138,8 +138,8 @@ NoteAI/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/NoteAI.git
-cd NoteAI
+git clone https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia.git
+cd AI-Summarization-and-QnA-for-Youtube-and-Wikipedia
 
 # Create a virtual environment
 python -m venv venv
@@ -168,6 +168,6 @@ streamlit run app.py
 
 For feedback, issues, or collaboration opportunities, reach out via:
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com)
+* **Email:** [your.email@example.com](mailto:sharmakanishka1604@gmail.com)
+* **LinkedIn:** [Your LinkedIn Profile](www.linkedin.com/in/sharma-kanishka16)
 
