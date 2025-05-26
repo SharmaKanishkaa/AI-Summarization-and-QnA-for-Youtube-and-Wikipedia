@@ -4,21 +4,10 @@
 **This tool is part of a research study published in \[2nd International Conference on Computational Science, Communication Technology & Networking (CICTN 2025)].**
 > You can access the full paper here: [**Read the Research Paper**](https://ieeexplore.ieee.org/document/10932550)
 
-## 📊 System Design Diagrams
-
 ### Workflow Diagrams
 
 - **Application Overview**  
   ![Workflow Diagram of the Application](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/flowchart.png)
-
-- **Summarization Module**  
-  ![Workflow of Summarization Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow.png)
-
-- **Q&A Module**  
-  ![Workflow of QnA Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow1.png)
-
-- **Quiz Generation Module**  
-  ![Workflow of Quiz Generation Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow2.png)
 
 ---
 
@@ -58,6 +47,16 @@ Students and independent learners often face:
 * Summarizing content into digestible formats.
 * Enabling real-time interaction with material through Q\&A.
 * Reinforcing learning with automatically generated quizzes.
+
+---
+ - **Summarization Module**  
+  ![Workflow of Summarization Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow.png)
+
+- **Q&A Module**  
+  ![Workflow of QnA Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow1.png)
+
+- **Quiz Generation Module**  
+  ![Workflow of Quiz Generation Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow2.png)
 
 ---
 
