@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Summarizer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Summarizer Hub</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li>
+                    <a href="#">AI YouTube</a>
+                    <ul class="submenu">
+                        <li><a href="/youtube-summarizer" class="active">YouTube Summarizer</a></li>
+                        <li><a href="/youtube-qna">Q&A</a></li>
+                    </ul>
+                </li>
+                <li><a href="/wikipedia-summarizer">Wikipedia Summarizer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="summarizer">
+            <h2>YouTube Video Summarizer</h2>
+            <form action="/process-video" method="POST">
+                <label for="video-url">Enter YouTube Video URL:</label>
+                <textarea id="video-url" name="video-url" placeholder="https://www.youtube.com/watch?v=..." rows="2" required></textarea>
+                <button type="submit" class="btn">Generate Summary</button>
+            </form>
+
+            <div class="summary-output">
+                {% if summary %}
+                <h3>Summary:</h3>
+                <textarea readonly rows="6">{{ summary }}</textarea>
+                {% endif %}
+            </div>
+        </section>
+
+        <section class="qna">
+            <h2>Q&A</h2>
+            <form action="/process-question" method="POST">
+                <label for="question">Ask a Question:</label>
+                <textarea id="question" name="question" placeholder="Type your question here..." rows="2" required></textarea>
+                <button type="submit" class="btn">Get Answer</button>
+            </form>
+
+            <div class="answer-output">
+                {% if answer %}
+                <h3>Answer:</h3>
+                <textarea readonly rows="4">{{ answer }}</textarea>
+                {% endif %}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Summarizer Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+youtube-transcript-api
+googletrans
+transformers
+bs4
+spacy
+nltk
+scikit-learn
+gensim
+numpy==1.24.3
+

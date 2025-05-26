@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarization Tools</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Summarizer Hub</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">AI YouTube</a>
+                    <div class="dropdown-content">
+                        <a href="/youtube-summarizer" class="btn">YouTube Summarizer</a>
+                        <a href="/youtube-qna">Q&A</a>
+                    </div>
+                </li>
+                <li><a href="/AI-wikipedia">Wikipedia Summarizer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Summarizer Hub</h2>
+            <p>
+                Explore advanced tools for summarizing and understanding content effortlessly. 
+                With YouTube and Wikipedia summarization tools, you can generate summaries and ask questions seamlessly.
+            </p>
+            <a href="/youtube-summarizer" class="btn">Get Started</a>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>YouTube Video Summarization</h3>
+                <p>Summarize YouTube videos with ease. Enter a video link and get concise summaries or ask questions.</p>
+            </div>
+            <div class="feature">
+                <h3>Wikipedia Summarization</h3>
+                <p>Summarize lengthy Wikipedia articles to save time and grasp important information quickly.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Summarizer Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
