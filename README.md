@@ -4,6 +4,22 @@
 **This tool is part of a research study published in \[2nd International Conference on Computational Science, Communication Technology & Networking (CICTN 2025)].**
 > You can access the full paper here: [**Read the Research Paper**](https://ieeexplore.ieee.org/document/10932550)
 
+## 📊 System Design Diagrams
+
+### Workflow Diagrams
+
+- **Application Overview**  
+  ![Workflow Diagram of the Application](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/flowchart.png)
+
+- **Summarization Module**  
+  ![Workflow of Summarization Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow.png)
+
+- **Q&A Module**  
+  ![Workflow of QnA Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow1.png)
+
+- **Quiz Generation Module**  
+  ![Workflow of Quiz Generation Module](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/workflow2.png)
+
 ---
 
 ## Features
@@ -14,6 +30,17 @@
 * **Dynamic Quiz Generation:** Generates multiple-choice quizzes using spaCy’s NER and TF-IDF scoring.
 * **Modular Architecture:** Each component (summarization, Q\&A, quiz) functions independently for maximum flexibility.
 * **Interactive Streamlit UI:** Clean and intuitive web interface for easy navigation and usage.
+
+---
+## 📸 Visual Overview
+
+| Home Page | YouTube Summarization Tool | YouTube Q&A Tool |
+|-----------|-----------------------------|-------------------|
+| ![Home](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/homepage.png) | ![YouTube Summarizer](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/summarizer%201.png) | ![YouTube QnA](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/q%26a.png) |
+
+| Wikipedia Summarization Tool | Wikipedia Q&A Tool |
+|------------------------------|---------------------|
+| ![Wikipedia Summarizer](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/summarizer.png) | ![Wikipedia QnA](https://github.com/SharmaKanishkaa/AI-Summarization-and-QnA-for-Youtube-and-Wikipedia/blob/main/q%26a%201.png) |
 
 ---
 
