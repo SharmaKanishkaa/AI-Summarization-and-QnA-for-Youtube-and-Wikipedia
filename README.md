@@ -194,6 +194,6 @@ streamlit run app.py
 
 For feedback, issues, or collaboration opportunities, reach out via:
 
-* **Email:** [your.email@example.com](mailto:sharmakanishka1604@gmail.com)
-* **LinkedIn:** [Your LinkedIn Profile](www.linkedin.com/in/sharma-kanishka16)
+* **Email:** [Kanishka Sharma Mail](mailto:sharmakanishka1604@gmail.com)
+* **LinkedIn:** [LinkedIn Profile](www.linkedin.com/in/sharma-kanishka16)
 
