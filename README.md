@@ -1,7 +1,7 @@
 # NoteAI: Summarization, Q\&A, and Quiz Generator for YouTube and Wikipedia
 
 **NoteAI** is an open-source, AI-powered educational assistant that simplifies complex learning content from YouTube videos and Wikipedia articles. Built using **Python** and **Streamlit**, it integrates cutting-edge Natural Language Processing (NLP) technologies to offer a user-friendly interface for summarization, intelligent question answering, and dynamic quiz generation.
-**This tool is part of a research study published in \2nd International Conference on Computational Science, Communication Technology & Networking (CICTN 2025).**
+**This tool is part of a research study published in 2nd International Conference on Computational Science, Communication Technology & Networking (CICTN 2025).**
 > You can access the full paper here: [**Read the Research Paper**](https://ieeexplore.ieee.org/document/10932550)
 
 ### Workflow Diagrams
